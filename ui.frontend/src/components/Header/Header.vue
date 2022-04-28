@@ -13,16 +13,17 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
 header {
 
 display: flex;
 flex-direction: row;
-/* devChallenges.io */
 
 left: 77px;
 top: 40px;
 
-font-family: 'Inconsolata';
+font-family: 'Inconsolata', monospace;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;

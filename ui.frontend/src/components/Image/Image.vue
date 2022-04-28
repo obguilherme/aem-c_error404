@@ -28,10 +28,11 @@ img {
     align-items: center;
   }
 }
+
 .error {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 </style>

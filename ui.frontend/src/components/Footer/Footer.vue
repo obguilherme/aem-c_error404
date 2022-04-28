@@ -15,13 +15,14 @@ export default {
 </script>
 
 <style >
-.foot {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
+.foot {
   display: flex;
   flex-direction: column;
   align-items: center;
-/* devChallenges.io */
-  font-family: 'Montserrat';
+
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;

@@ -43,29 +43,35 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
 .title {
   display: flex;
   flex-direction: column;
 
-  font-family: 'Space Mono';
+  font-family: 'Space Mono', monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 95px;
   letter-spacing: -0.035em;
   color: #333333;
+
+  margin-bottom: 36px;
 }
 .paragraph {
   display: flex;
   flex-direction: column;
 
-  font-family: 'Space Mono';
+  font-family: 'Space Mono', monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: -0.035em;
   color: #4F4F4F;
+
+  margin-bottom: 64px;
 }
 
 </style>
