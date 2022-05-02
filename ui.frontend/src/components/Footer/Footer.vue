@@ -1,6 +1,6 @@
 <template>
   <div class="foot">
-    <footer >
+    <footer>
       <p>created by <b>guilherme.bechel</b> - devChallenges.io</p>
     </footer>
   </div>
@@ -19,9 +19,8 @@ export default {
 
 .foot {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-
+  justify-content: center;
+  margin: 0 0 30px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;

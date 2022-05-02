@@ -6,22 +6,25 @@
 export default {
   name: 'CustomClasses',
   mounted () {
-    const containerLeft = document.querySelector('[cqpath="/content/vue/vue/jcr:content/root/responsivegrid/container_1337994141"] div')
-    containerLeft.classList.add('bg-gray')
+    const containerLeft = document.querySelector('[cqpath="/content/vue/vue/jcr:content/root/responsivegrid/container_1794189691"] div')
+    containerLeft.classList.add('central-content')
 
     const containerRight = document.querySelector('[cqpath="/content/vue/vue/jcr:content/root/responsivegrid/container"] div')
-    containerRight.classList.add('bg-green')
+    containerRight.classList.add('central-content')
   }
 }
 </script>
 
 <style lang="scss">
-.bg-gray {
-  background-color: gray;
-  padding: 50px;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
-.bg-green {
-  background-color: green;
-  padding: 50px;
+
+.central-content {
+  margin: 10% 0;
 }
 </style>
