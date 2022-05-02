@@ -48,30 +48,54 @@ export default {
 .title {
   display: flex;
   flex-direction: column;
-
+  max-width: 30vw;
   font-family: 'Space Mono', monospace;
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 95px;
-  letter-spacing: -0.035em;
-  color: #333333;
 
-  margin-bottom: 36px;
 }
 .paragraph {
   display: flex;
   flex-direction: column;
-
+  max-width: 30vw;
   font-family: 'Space Mono', monospace;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  letter-spacing: -0.035em;
-  color: #4F4F4F;
 
-  margin-bottom: 64px;
+}
+
+@media all and (max-width: 414px) {
+  .title {
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    margin-bottom: 36px;
+  }
+  .paragraph {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    margin-bottom: 64px;
+  }
+}
+
+@media all and (min-width: 1366px) {
+  .title {
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    margin-bottom: 36px;
+  }
+  .paragraph {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    margin-bottom: 64px;
+  }
 }
 
 </style>

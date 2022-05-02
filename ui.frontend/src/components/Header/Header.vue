@@ -15,22 +15,33 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
 
-header {
+@media all and (max-width: 320px) {
+  header p {
+    display: flex;
+    flex-direction: row;
 
-display: flex;
-flex-direction: row;
+    margin-left: 5px;
+    margin-top: -40px;
+  }
+}
 
-left: 77px;
-top: 40px;
+@media all and (min-width: 321px) {
+  header p {
+    display: flex;
+    flex-direction: row;
 
-font-family: 'Inconsolata', monospace;
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 25px;
-letter-spacing: -0.08em;
-text-transform: uppercase;
+    margin-left: 77px;
+    margin-top: 40px;
 
-color: #333333;
+    font-family: "Inconsolata", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+  }
 }
 </style>

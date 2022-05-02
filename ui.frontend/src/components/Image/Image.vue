@@ -18,21 +18,18 @@ export default {
 <style scoped>
 img {
   max-width: 40vw;
-
 }
 
-@media all and (max-width: 360px) {
-  .error {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media all and (max-width:404px) {
+  img {
+    max-width: 70vw;
   }
 }
 
 .error {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 </style>
